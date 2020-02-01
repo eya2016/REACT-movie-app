@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.moviesContainer{
+  margin:2% 20%;
+  border: 2px solid #000;
+  border-radius: 25px;
+  min-height:750px;
+}
+.moviesSubContainer{
+  padding:20px;
+  margin:60px 35px 40px;
+  border: 2px solid #000;
+  min-height:680px;
+}
+.list-container{margin-top:55px;}
+.litse-movies-rate{margin:10px 22px;}
+.btn-add-movie{
+  position: relative;
+  max-width: 230px;
+  height: 150px;
+  font-weight: 600;
+  font-size: 42px;
+  margin: 25px 0;
+  padding: 45px 100px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.input-group {width:90%;}
+.input-group>.form-control {height: 55px;}
+.right-part{ margin-left:45px;}
+.moviesSubContainer .input-group {width:90% !important;}
+.containerRating {display:flex;}
+.card-body {
+  flex: 1 1 auto;
+  padding: 0.25rem;
+  text-align: center;
+}
+.col-form-label {font-weight:bolder;}
